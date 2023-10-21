@@ -22,7 +22,7 @@ public static void main(String[] args) {
 		//using period;
 		LocalDate start=LocalDate.of(2023, 10, 10);
 		LocalDate end=LocalDate.of(2023, 11, 10);
-Period period=Period.ofWeeks(1);
+Period period=Period.ofWeeks(2);
 //cleanHouse(start,end,period);
 System.out.println(start.plus(period));
 
