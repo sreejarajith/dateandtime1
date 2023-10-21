@@ -25,6 +25,7 @@ public static void main(String[] args) {
 Period period=Period.ofWeeks(2);
 //cleanHouse(start,end,period);
 System.out.println(start.plus(period));
+System.out.println("cleaning done");
 
 
    
