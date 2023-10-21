@@ -13,10 +13,9 @@ public static void main(String[] args) {
 	System.out.println(LocalDate.now());
 	System.out.println(LocalTime.now());
 		
-	
-	
-	  LocalDate localdate=LocalDate.of(2023, 6, 1); LocalTime
-	  localtime=LocalTime.of(10, 30); System.out.println(localdate+","+localtime);
+	  LocalDate localdate=LocalDate.of(2023, 6, 1); 
+	  LocalTime localtime=LocalTime.of(10, 30); 
+	  System.out.println(localdate+","+localtime);
 	 
 	 
 		System.out.println(LocalDateTime.of(localdate, localtime));
