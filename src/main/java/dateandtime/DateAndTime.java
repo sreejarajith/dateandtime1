@@ -26,6 +26,12 @@ Period period=Period.ofWeeks(2);
 //cleanHouse(start,end,period);
 System.out.println(start.plus(period));
 System.out.println("cleaning done");
+System.out.println("next cleaning date");
+LocalDate start1=LocalDate.of(2023, 12, 1);
+LocalDate end1=LocalDate.of(2023, 12, 31);
+Period period1=Period.ofWeeks(2);
+System.out.println(start1.plus(period1));
+System.out.println("cleaning done for december");
 
 
    
